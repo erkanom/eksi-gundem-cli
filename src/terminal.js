@@ -2,8 +2,8 @@ const scrape =require('./scrape.js')
 const colors = require('colors');
 var keypress = require('keypress');
 var clear = require("cli-clear");
-
- scrape().then((content)=>{
+function terminalMenu(){
+  scrape().then((content)=>{
     let index=0;
     
     function printContents(content){
@@ -58,4 +58,6 @@ var clear = require("cli-clear");
 
 
 });
+}
+ terminalMenu();
 

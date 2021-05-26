@@ -1,0 +1,21 @@
+{
+  "name": "eksi-gundem",
+  "version": "1.0.0",
+  "description": "Cli tool for eksisozluk.com",
+  "main": "./src/scrape.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "erkanom",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^0.21.1",
+    "cheerio": "^1.0.0-rc.9",
+    "colors": "^1.4.0",
+    "keypress": "^0.2.1",
+    "request": "^2.88.2"
+  },
+  "devDependencies": {
+    "cli-clear": "^1.0.4"
+  }
+}
